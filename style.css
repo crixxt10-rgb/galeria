@@ -1,0 +1,90 @@
+/* CONFIGURACION GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family:Arial, sans-serif; 
+    background-color: #f5f5f5;
+    
+}
+
+/* ENCABEZADO */
+header{
+    background-color: beige;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1{
+    color: #9d2335;
+    font-size: 30px;
+    margin: 0;
+}
+
+header p{
+    color: #67635d;
+    font-size: 16px;
+}
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4f4c47;
+    margin: 5px;
+    padding: 12px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.patrones {
+    padding: 30px;
+    margin: 25px;
+    background-color:rgb(248, 255, 255) ;
+    border-radius: 20px;
+}
+
+.galeria {
+    columns: 4;
+    column-gap: 15px;
+}
+
+.tarjeta {
+    background-color: rgb(63, 68, 68);
+    margin-bottom: 15px;
+    border-radius: 13px;
+    overflow: hidden;/* sirve para ocultar cualquier contenido que sobresalga de los limites de un elemento */
+    break-inside: avoid;/* sirve para evitar que un elemento se divida entre dos columnas o paginas */
+    transition: transform 0.3s;/* sirve para suavizar clics al presionar un boton o hipervinculo*/
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 30px;
+}
+
+footer{
+    margin: 5px;
+}
+
+/* mi actividad es de ANIMALES */
